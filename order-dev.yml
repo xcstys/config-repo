@@ -8,6 +8,11 @@ server:
 spring:
   application:
     name: order
+  rabbitmq:
+    host: 192.168.19.120
+    port: 5672
+    username: admin
+    password: admin
   datasource:
     username: root
     password: 123456
