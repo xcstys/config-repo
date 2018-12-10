@@ -1,5 +1,4 @@
-env:
-  dev
+env: dev
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
